@@ -9,9 +9,9 @@ Refer the problem.md file for problem description.
 
 2. **CLONE** the forked repository, containing the boilerplate in your local machine
      
-3. Navigate to Exercise-bt-loops-dowhile-solution folder
+3. Navigate to Exercise-bt-loops-dowhile folder
 
-    `cd Exercise-bt-loops-dowhile-solution`
+    `cd Exercise-bt-loops-dowhile`
 
 4. Check the status of your repository
 

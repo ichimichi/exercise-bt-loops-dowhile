@@ -1,4 +1,4 @@
-package com.stackroute.basics.commander.test;
+package com.stackroute.basics;
 
 import com.stackroute.basics.Palindrome;
 import org.junit.jupiter.api.*;

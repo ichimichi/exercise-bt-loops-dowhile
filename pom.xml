@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.stackroute</groupId>
-  <artifactId>exercise-bt-loops-dowhile-solution</artifactId>
+  <artifactId>exercise-bt-loops-dowhile</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
   <properties>

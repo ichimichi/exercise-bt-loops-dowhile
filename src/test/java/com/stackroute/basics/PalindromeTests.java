@@ -1,4 +1,4 @@
-package com.stackroute.basics.commander.test;
+package com.stackroute.basics;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
