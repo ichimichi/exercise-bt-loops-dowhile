@@ -12,7 +12,14 @@
     +getValue() : void
              - Should get input from the console
              - Should return error string when input has decimal,character or empty
-             - Should pass the input as BigInteger to method palindromeValidator     
+             - Should pass the input as BigInteger to method palindromeValidator   
+--------------------------------------------------------
+    +outputPrinter(String) : void
+             - Should pass the input to inputValidator and print error string when return is true
+             - Should pass the input as BigInteger to method palindromeValidator and print the return value       
+--------------------------------------------------------
+    +inputValidator(String) : boolean
+             - Should check whether input has decimal,character or isEmpty and return an boolean value
 
 
 ## Example##

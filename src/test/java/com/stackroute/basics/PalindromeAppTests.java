@@ -1,6 +1,5 @@
 package com.stackroute.basics;
 
-import com.stackroute.basics.Palindrome;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayInputStream;
