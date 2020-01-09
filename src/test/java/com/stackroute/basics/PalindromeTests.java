@@ -8,9 +8,10 @@ import java.math.BigInteger;
 
 public class PalindromeTests {
     private Palindrome palindrome;
+    private String message ="Check the logic in the method palindromeValidator do not typecast BigInteger to primitive datatypes";
 
     @BeforeEach
-    public void setup() {
+    public void setUp() {
         palindrome = new Palindrome();
     }
 
@@ -21,12 +22,12 @@ public class PalindromeTests {
 
     @Test
     public void givenPalindromeBigIntegerThenReturnAStringResult() {
-        assertEquals("99999999999523989457200275498932599999999999 is a palindrome", palindrome.palindromeValidator(new BigInteger("99999999999523989457200275498932599999999999")), "Check the logic in the method palindromeValidator do not typecast BigInteger to primitive datatypes");
+        assertEquals("99999999999523989457200275498932599999999999 is a palindrome", palindrome.palindromeValidator(new BigInteger("99999999999523989457200275498932599999999999")), message);
     }
 
     @Test
     public void givenNonPalindromeBigIntegerThenReturnAStringResult() {
-        assertEquals("99999999999523989457223275498932599999999999 is not a palindrome", palindrome.palindromeValidator(new BigInteger("99999999999523989457223275498932599999999999")), "Check the logic in the method palindromeValidator do not typecast BigInteger to primitive datatypes");
+        assertEquals("99999999999523989457223275498932599999999999 is not a palindrome", palindrome.palindromeValidator(new BigInteger("99999999999523989457223275498932599999999999")), message);
     }
 
     @Test
