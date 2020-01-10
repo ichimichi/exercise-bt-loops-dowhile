@@ -22,7 +22,7 @@
              - Should check whether input has decimal,character or isEmpty and return a boolean value
 
 
-## Example##
+## Example
     Sample Input:
     Enter the Number:
     99999999999523989457200275498932599999999999
@@ -51,7 +51,7 @@
     Expected Output:
     The integer have to be at least a two digit positive integer
 
-## Instructions##
+## Instructions
 
 - Avoid printing unnecessary values other than expected output as given in sample
 - Take care of whitespace/trailing whitespace
